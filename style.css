@@ -139,3 +139,31 @@ section {
     margin: auto;
     margin-bottom: 40px;
 }
+
+.submit-container {
+    background-color: #ffd1b5;
+    padding: 70px 0;
+    border-radius: 5px;
+}
+
+.submit-container input {
+    border: none;
+    text-align: left;
+    padding: 12px 70px;
+    font-size: 18px;
+    background-color: #e5e5e5;
+}
+
+footer {
+    background-color: black;
+    padding: 50px;
+}
+
+.footer-info {
+    color: white;
+    text-align: center;
+}
+
+.footer-info h3 {
+    color: #05059d;
+}
