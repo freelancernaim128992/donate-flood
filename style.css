@@ -1,0 +1,141 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+header {
+    background-image: linear-gradient(#00000036, black), url(./images/flood-cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.header-info {
+    width: 45%;
+    margin: 0 auto;
+    padding: 9% 0;
+    text-align: center;
+    color: white;
+}
+
+.button-style {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(#07bfbf, #05059d);
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.header-info p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.money-info {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.money-info p {
+    color: grey;
+    margin-bottom: 40px;
+}
+
+.donate-money {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.donate-box-container {
+    display: flex;
+}
+
+.donate-box {
+    width: 125px;
+    height: 125px;
+    background-color: #f3f3f3;
+    margin-right: 35px;
+    border-radius: 5px;
+    color: grey;
+}
+
+.donate-box p {
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0px;
+    font-weight: 700;
+}
+
+.diffarent-box {
+    border: 2px solid #05059d;
+    color: #05059d;
+}
+
+.amount-style {
+    width: 100%;
+    margin: 60px 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #a09d9d;
+}
+
+.plan-box {
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.plan-box-1 {
+    background-color: #ccfff1;
+}
+
+.plan-box-2 {
+    background-color: #fed7ff;
+}
+
+.plan-box-3 {
+    background-color: #f0ffb2;
+}
+
+.plan-box p {
+    color: grey;
+}
+
+.plan-box img {
+    width: 30%;
+}
+
+.plan-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.plan-info {
+    text-align: center;
+}
+
+.plan-info p {
+    color: grey;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
+}
