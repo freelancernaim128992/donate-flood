@@ -12,6 +12,10 @@ h3 {
     font-size: 30px;
 }
 
+.heading-style {
+    color: #05059d;
+}
+
 header {
     background-image: linear-gradient(#00000036, black), url(./images/flood-cover.jpg);
     background-size: cover;
@@ -125,7 +129,7 @@ section {
 }
 
 .plan-container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -138,6 +142,47 @@ section {
     width: 50%;
     margin: auto;
     margin-bottom: 40px;
+}
+
+.volunteer-box {
+    width: 25%;
+    margin-right: 10px;
+}
+
+.volunteer-info {
+    padding: 10px;
+}
+
+.volunteer-info p {
+    color: grey;
+    padding-bottom: 20px;
+}
+
+.volunteer-box img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.volunteer-1 {
+    background-color: #fed7ff;
+}
+
+.volunteer-2 {
+    background-color: #ffd1b5
+}
+
+.volunteer-3 {
+    background-color: #ccfff1;
+}
+
+.volunteer-4 {
+    background-color: #f0ffb2;
+}
+
+.volunteer-img {
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .submit-container {
